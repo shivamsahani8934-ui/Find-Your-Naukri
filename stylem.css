@@ -31,4 +31,12 @@
     font-size:50px;
     }                                 /*about box close*/
     /* # Page 1 Close # */
+    /* # Page 2 Open # */
+    #list_el li{
+    padding:50px;
+    font-size:40px;
+    margin:50px;
+    border:10px solid;
+    border-radius:20px 0px 20px 0px;
+    }
 }
