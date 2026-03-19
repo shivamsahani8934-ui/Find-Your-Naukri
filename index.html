@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Find Your Nokari</title>
+        <title>Find Your Naukri</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="stylem.css">
     </head>
     <body>
         <!--# Page 1 Open #-->
-        <header>
-            <a href="#"><p>Find Your Nokari</p></a>
+        <header id="header">
+            <a href="#"><p>Find Your Naukri</p></a>
         </header>
         <div id="job_box">
-            <button id="job"><p>Letest Job</p></button>
+            <button onclick="Latest_job()" id="job"><p>Latest Job</p></button>
             <button id="admit_card"><p>Admit Card</p></button>
             <button id="ans_key"><p>Answer Key</p></button>
             <button id="result"><p>Result</p></button>
@@ -20,5 +20,25 @@
             <p>Latest Jobs | Admit Card | Results – All Updates in One Place 🚀</p>
         </div>
         <!--# Page 1 Close #-->
+
+        <!--# Page 2 Open #-->
+        <div id="page2" style="display: none;">
+            <header>
+                <a href="#"><p>Latest Job</p></a>
+            </header>
+            <div id="page2_job">
+                <ul id="list_el">
+                    <li>Indian Army Agniveer CEE Form 2026</li>
+                    <li>IDBI Bank JAM Form (1300 Posts)</li>
+                    <li>RRC WR Apprentice Form (5349 Posts)</li>
+                    <li>DSSSB AE, JE, ASO Form (911 Posts)</li>
+                    <li>RRB ALP Form 2026 (11,127 Posts)</li>
+                    <li>Bihar BPSC 33rd Judicial Services Online Form 2026 – Date Extend</li>
+                    <li>Allahabad HC Private Secretary Gr-I Online Form 2026</li>
+                    <li>SSB Constable Tradesman Online Form 2026</li>
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
